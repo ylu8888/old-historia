@@ -2,7 +2,7 @@ body{
     background-color: #141414;
     margin: 0;
     padding: 0;
-    font-family: Times New Roman;
+
 
 }
 
@@ -25,8 +25,8 @@ body{
     margin-left: 70px;
     margin-right: 70px;
     font-size: 28px;
-    color: white; 
-    text-decoration: none; /*remove underline*/
+    color: white;
+    text-decoration: none; /*remove underline*/ 
 }
 
 .title{
@@ -36,4 +36,3 @@ body{
     align-items: center;
     color: white;
 }
-
