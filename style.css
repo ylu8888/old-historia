@@ -49,6 +49,14 @@ active,.nav-bar a:hover{
     color: black;
 }
 
+.title{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
 .title-container{
     text-align: center;
     justify-content: center;
