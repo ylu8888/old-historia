@@ -38,7 +38,7 @@ active,.nav-bar a:hover{
 }
 
 .title{
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
