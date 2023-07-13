@@ -1,9 +1,8 @@
 body{
     background-color: #141414;
+    font-family: Times New Roman;
     margin: 0;
     padding: 0;
-    font-family: Times New Roman;
-
 }
 
 
@@ -14,7 +13,7 @@ body{
     align-items: center;
     background-color: rgb(32, 33, 36);
     margin: 0px;
-    padding: 0px;
+    padding: 0;
     width: 100%;
     height: 70px;
 
@@ -31,24 +30,67 @@ body{
     border-radius: 5px;
 }
 
-active,a:hover{
+active,.nav-bar a:hover{
     background-color:purple;
 }
 
-.title{
+.title-container{
     text-align: center;
     justify-content: center;
     align-items: center;
     color: white;
-    margin-top: -30px;
-    padding-bottom: 30px;
+    padding-top: 0;
+    margin-top: -20px;
+    
 }
 
 #historia{
     font-size: 60px;
-    color: purple;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#historia span{
+    /*
+    background-color: rgb(109, 15, 176);
+    */
+    background-color: rgb(97, 214, 253);
+    color: black;
+    border-radius: 10px;
 }
 
 #underabout{
-    margin-top: -30px;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+/*align 2 images per row */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image-container a {
+    width: 49%; /* allows fixing margins*/
+    padding: 13px; /*change the image margin gaps */
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    
+}
+
+.image-container a:hover img {
+    transform: scale(1.025); 
 }

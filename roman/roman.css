@@ -22,11 +22,17 @@ body{
 }
 
 .nav-bar a{
-    margin-left: 70px;
-    margin-right: 70px;
-    font-size: 28px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 23px;
+    padding: 10px;
     color: white; 
     text-decoration: none; /*remove underline*/
+    border-radius: 5px;
+}
+
+active,a:hover{
+    background-color:purple;
 }
 
 .title{
