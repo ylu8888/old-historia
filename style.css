@@ -163,8 +163,8 @@ active,.nav-bar a:hover{
   }
 
 #main-about{
-  margin-left: 100px;
-  font-size: 35px;
+  margin-left: 130px;
+  font-size: 38px;
   color: rgb(97, 214, 253);
   padding-top: 0;
   padding-bottom: 0;
@@ -175,18 +175,19 @@ active,.nav-bar a:hover{
     text-align: left;
     color: rgb(97, 214, 253);
     line-height: 1;
+    font-size: 33px;
 }
 
 .about-us{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 130px;
+  margin-right: 130px;
   color: white;
   font-size: 18px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   margin-top: -20px;
   line-height: 2; /* double spacing */
 }
 
-.incentives{
-  line-height: 1.5;
+.incentives, .contact{
+  line-height: 1;
 }
