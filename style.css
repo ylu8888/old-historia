@@ -100,6 +100,7 @@ active,.nav-bar a:hover{
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 30px;
   }
   
   .image-wrapper {
@@ -161,6 +162,8 @@ active,.nav-bar a:hover{
 .image-wrapper:hover .overlay {
     color: rgb(97, 214, 253);
   }
+  
+  /* ABOUT SECTION */
 
 #main-about{
   margin-left: 130px;
@@ -192,10 +195,71 @@ active,.nav-bar a:hover{
   line-height: 1;
 }
 
+/* END OF ABOUT SECTION */
+
+/* FOOTER SECTION */
+
 .footer{
   background-color: rgb(32, 33, 36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(97, 214, 253);
+  border-left: none;
+  border-right: none;
+}
+
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 100%;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 40px;
+  color: white;
+  
+  
+}
+
+.footer-section a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover{
+  color: rgb(97, 214, 253);
+  
 }
 
 .footer-title{
-  color: white;
+  color: rgb(97, 214, 253);
+  
 }
+
+.logo-section{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-right: 60px;
+  font-size: 14px;
+}
+
+#small-historia{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#small-historia span{
+  background-color: rgb(97, 214, 253);
+  color: black;
+  border-radius: 5px;
+  
+}
+
+
+/* END OF FOOTER SECTION */
