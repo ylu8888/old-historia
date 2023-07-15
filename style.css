@@ -203,7 +203,8 @@ active,.nav-bar a:hover{
   background-color: rgb(32, 33, 36);
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  
   border: 1px solid rgb(97, 214, 253);
   border-left: none;
   border-right: none;
@@ -212,20 +213,21 @@ active,.nav-bar a:hover{
 .footer-section{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: left;
   height: 100%;
   margin-right: 60px;
   margin-left: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   color: white;
-  
+  margin-top: 0px;
   
 }
 
 .footer-section a{
   color: white;
   text-decoration: none;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .footer-section a:hover{
@@ -235,16 +237,24 @@ active,.nav-bar a:hover{
 
 .footer-title{
   color: rgb(97, 214, 253);
+  margin-bottom: 10px;
   
 }
 
 .logo-section{
   align-items: center;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   color: white;
   margin-right: 60px;
   font-size: 14px;
+  
+}
+
+.logo-section p{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #small-historia{
