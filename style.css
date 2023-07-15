@@ -191,3 +191,11 @@ active,.nav-bar a:hover{
 .incentives, .contact{
   line-height: 1;
 }
+
+.footer{
+  background-color: rgb(32, 33, 36);
+}
+
+.footer-title{
+  color: white;
+}
