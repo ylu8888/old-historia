@@ -228,6 +228,7 @@ active,.nav-bar a:hover{
   text-decoration: none;
   margin-top: 3px;
   margin-bottom: 3px;
+  font-size: 16px;
 }
 
 .footer-section a:hover{
@@ -238,7 +239,7 @@ active,.nav-bar a:hover{
 .footer-title{
   color: rgb(97, 214, 253);
   margin-bottom: 10px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -263,6 +264,7 @@ active,.nav-bar a:hover{
   color: white;
   text-decoration: none;
   font-weight: bold;
+  margin-bottom: 4px;
 }
 
 #small-historia span{
