@@ -195,6 +195,16 @@ active,.nav-bar a:hover{
   line-height: 1;
 }
 
+#linked-in{
+  text-decoration: none;
+  color: white;
+}
+
+#linkedin-image{
+  width: 25px;
+  height: 25px;
+}
+
 /* END OF ABOUT SECTION */
 
 /* FOOTER SECTION */
@@ -258,6 +268,7 @@ active,.nav-bar a:hover{
   margin-top: 7px;
   margin-bottom: 7px;
 }
+
 
 #small-historia{
   font-size: 24px;
