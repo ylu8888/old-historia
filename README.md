@@ -1,5 +1,6 @@
 # HistoriaHub https://historiahub.netlify.app/
-Online educational platform featuring Roman, Greek, & French History with interactive quizzes!
+Online educational platform exhibiting Roman, Greek, and other history, featuring interactive quizzes!
 
-![image](https://github.com/ylu8888/HistoriaHub/assets/123523291/2211bcff-969d-4cda-8588-680eb6532c6e)
+![image](https://github.com/ylu8888/HistoriaHub/assets/123523291/f5405e51-5725-4abe-a865-1a6f9337000f)
+
 
