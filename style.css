@@ -198,11 +198,30 @@ active,.nav-bar a:hover{
 #linked-in{
   text-decoration: none;
   color: white;
+  flex-direction: none;
 }
 
 #linkedin-image{
   width: 25px;
   height: 25px;
+  transform: translateY(4px);
+}
+
+.contact a{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+#atlas-plug{
+  color: white;
+  text-decoration: none;
+}
+
+#atlas-plug:hover{
+  color: purple;
 }
 
 /* END OF ABOUT SECTION */
